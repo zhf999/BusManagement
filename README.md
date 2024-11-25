@@ -1,9 +1,21 @@
 # BusManagement
 西电计科院数据库的大作业——公交管理系统
 
+## 声明
+（写于2024年11月25日）
+此项目是本人在大三时写的数据库大作业，随手上传到GitHub，没想到如今已经收获了许多的star，承蒙各位学弟学妹厚爱。
+需要注意的是，因为本人当时代码水平比较差，导致代码质量比较低，表现为代码风格混乱、异常处理不规范等。另外，数据库的逻辑设计也有部分错误，希望大家辩证地参考。
+
+本项目基于MIT协议开源，意味着你可以随意使用代码，但是在代码以及代码的所有副本中需要标注本仓库的地址以及作者名字。不建议直接提交本项目作为大作业。
+
 ## 环境
-PowerDesigner + MySQL8.x + Java
+编程语言：Java
+语言依赖： JDBC（用于连接数据库）
+数据库： MySQL 8.x
+GUI： Java Swing
+数据库设计软件： PowerDesigner
 
 ## 使用说明
-`MySqlScripts` 内存放MySQL数据相关脚本，`PowerDesigner`中存储PowerDesigner的项目文件，包含逻辑视图和物理视图，代码文件在`DBtest`中，可以用IDEA打开。
+`MySqlScripts` 内存放MySQL数据相关脚本，`PowerDesigner`中存储PowerDesigner的项目文件，包含逻辑视图和物理视图，代码文件在`DBtest`中，建议用IDEA打开。
 代码不保证完全正确，但是基本功能算是完善了。如果有用请**star**本项目。
+
